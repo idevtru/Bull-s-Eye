@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131CD1512236AA2D00D26BA6 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 131CD1502236AA2D00D26BA6 /* BullsEye.html */; };
 		133B6505222869CB00820BBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B6504222869CB00820BBB /* AppDelegate.swift */; };
 		133B6507222869CB00820BBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133B6506222869CB00820BBB /* ViewController.swift */; };
 		133B650A222869CB00820BBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133B6508222869CB00820BBB /* Main.storyboard */; };
 		133B650C222869CC00820BBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 133B650B222869CC00820BBB /* Assets.xcassets */; };
 		133B650F222869CC00820BBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133B650D222869CC00820BBB /* LaunchScreen.storyboard */; };
+		13ECFB822234609D0099AF65 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ECFB812234609D0099AF65 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		131CD1502236AA2D00D26BA6 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		133B6501222869CB00820BBB /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		133B6504222869CB00820BBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		133B6506222869CB00820BBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		133B650B222869CC00820BBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		133B650E222869CC00820BBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		133B6510222869CC00820BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13ECFB812234609D0099AF65 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		133B6503222869CB00820BBB /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				131CD1502236AA2D00D26BA6 /* BullsEye.html */,
 				133B6504222869CB00820BBB /* AppDelegate.swift */,
 				133B6506222869CB00820BBB /* ViewController.swift */,
+				13ECFB812234609D0099AF65 /* AboutViewController.swift */,
 				133B6508222869CB00820BBB /* Main.storyboard */,
 				133B650B222869CC00820BBB /* Assets.xcassets */,
 				133B650D222869CC00820BBB /* LaunchScreen.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				133B650F222869CC00820BBB /* LaunchScreen.storyboard in Resources */,
+				131CD1512236AA2D00D26BA6 /* BullsEye.html in Resources */,
 				133B650C222869CC00820BBB /* Assets.xcassets in Resources */,
 				133B650A222869CB00820BBB /* Main.storyboard in Resources */,
 			);
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13ECFB822234609D0099AF65 /* AboutViewController.swift in Sources */,
 				133B6507222869CB00820BBB /* ViewController.swift in Sources */,
 				133B6505222869CB00820BBB /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZX973JF5A;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZX973JF5A;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
